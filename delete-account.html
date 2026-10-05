@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>حذف الحساب - صيدليتك</title>
+
+    <meta
+        name="description"
+        content="صفحة طلب حذف حساب تطبيق صيدليتك والبيانات المرتبطة به."
+    >
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, "Segoe UI", Tahoma, sans-serif;
+            background: #f7f6fc;
+            color: #211c3d;
+            line-height: 1.8;
+        }
+
+        .header {
+            background: linear-gradient(
+                135deg,
+                #7a68e8,
+                #5a4be0
+            );
+            color: white;
+            text-align: center;
+            padding: 55px 20px;
+        }
+
+        .logo {
+            width: 75px;
+            height: 75px;
+            margin: 0 auto 18px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: rgba(255, 255, 255, 0.18);
+            border-radius: 20px;
+
+            font-size: 34px;
+            font-weight: bold;
+        }
+
+        .header h1 {
+            margin: 0 0 8px;
+            font-size: 32px;
+        }
+
+        .header p {
+            margin: 0;
+            font-size: 17px;
+            opacity: 0.95;
+        }
+
+        .container {
+            width: min(900px, calc(100% - 32px));
+            margin: 35px auto 60px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #e7e4f0;
+            border-radius: 18px;
+            padding: 28px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 25px rgba(33, 28, 61, 0.05);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #211c3d;
+            font-size: 23px;
+        }
+
+        h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        ul,
+        ol {
+            padding-right: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .steps {
+            list-style: none;
+            padding: 0;
+            counter-reset: steps;
+        }
+
+        .steps li {
+            counter-increment: steps;
+
+            position: relative;
+
+            background: #faf9fe;
+            border-radius: 12px;
+
+            padding: 15px 55px 15px 15px;
+
+            margin-bottom: 12px;
+        }
+
+        .steps li::before {
+            content: counter(steps);
+
+            position: absolute;
+            right: 15px;
+            top: 13px;
+
+            width: 30px;
+            height: 30px;
+
+            border-radius: 50%;
+
+            background: #7a68e8;
+            color: white;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-weight: bold;
+        }
+
+        .notice {
+            background: #f1efff;
+            border: 1px solid #ddd7ff;
+            border-radius: 14px;
+            padding: 18px;
+            margin-top: 18px;
+        }
+
+        .warning {
+            background: #fff7f6;
+            border-right: 4px solid #b42318;
+            border-radius: 10px;
+            padding: 16px;
+            color: #5f211b;
+        }
+
+        .contact {
+            background: #f1efff;
+            border-radius: 14px;
+            padding: 20px;
+        }
+
+        .contact strong {
+            color: #5a4be0;
+        }
+
+        .english {
+            direction: ltr;
+            text-align: left;
+
+            margin-top: 45px;
+            padding-top: 35px;
+
+            border-top: 1px solid #e7e4f0;
+        }
+
+        footer {
+            text-align: center;
+            color: #77728b;
+            font-size: 14px;
+            padding-bottom: 35px;
+        }
+
+        @media (max-width: 600px) {
+            .header {
+                padding: 40px 15px;
+            }
+
+            .header h1 {
+                font-size: 27px;
+            }
+
+            .card {
+                padding: 21px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+        ص
+    </div>
+
+    <h1>حذف حساب صيدليتك</h1>
+
+    <p>
+        طلب حذف الحساب والبيانات المرتبطة به
+    </p>
+
+</header>
+
+
+<main class="container">
+
+    <!-- Arabic -->
+
+    <section class="card">
+
+        <h2>كيفية طلب حذف حسابك</h2>
+
+        <p>
+            إذا كنت ترغب في حذف حسابك في تطبيق
+            <strong>صيدليتك (Saidalyetak)</strong>
+            والبيانات المرتبطة به، يمكنك إرسال طلب حذف الحساب باتباع الخطوات التالية:
+        </p>
+
+        <ol class="steps">
+
+            <li>
+                تواصل معنا باستخدام وسيلة التواصل الموضحة في أسفل هذه الصفحة.
+            </li>
+
+            <li>
+                اذكر رقم الهاتف المستخدم لتسجيل حسابك في تطبيق صيدليتك.
+            </li>
+
+            <li>
+                اذكر بوضوح أنك تريد حذف حسابك والبيانات المرتبطة به.
+            </li>
+
+            <li>
+                قد نطلب منك معلومات إضافية للتحقق من ملكية الحساب وحماية حسابك
+                من طلبات الحذف غير المصرح بها.
+            </li>
+
+            <li>
+                بعد التحقق من الطلب، سيتم معالجة طلب حذف الحساب والبيانات
+                المرتبطة به وفقًا لسياسة الخصوصية الخاصة بتطبيق صيدليتك.
+            </li>
+
+        </ol>
+
+    </section>
+
+
+    <section class="card">
+
+        <h2>البيانات التي يتم حذفها</h2>
+
+        <p>
+            عند معالجة طلب حذف الحساب، يتم حذف البيانات المرتبطة بالحساب
+            التي لم يعد هناك سبب مشروع للاحتفاظ بها، وقد تشمل:
+        </p>
+
+        <ul>
+
+            <li>
+                الاسم المرتبط بالحساب.
+            </li>
+
+            <li>
+                رقم الهاتف المرتبط بالحساب.
+            </li>
+
+            <li>
+                بيانات الحساب الشخصية.
+            </li>
+
+            <li>
+                صور الروشتات والوصفات التي قام المستخدم برفعها.
+            </li>
+
+            <li>
+                بيانات طلبات الأدوية المرتبطة بالحساب.
+            </li>
+
+            <li>
+                البيانات المرتبطة بالعروض والتواصل داخل التطبيق.
+            </li>
+
+            <li>
+                البيانات الأخرى المرتبطة بالحساب والتي لا توجد حاجة مشروعة
+                للاحتفاظ بها.
+            </li>
+
+        </ul>
+
+    </section>
+
+
+    <section class="card">
+
+        <h2>البيانات التي قد يتم الاحتفاظ بها</h2>
+
+        <div class="warning">
+
+            قد يتم الاحتفاظ ببعض البيانات لفترة محدودة إذا كان الاحتفاظ بها
+            ضروريًا للامتثال لالتزام قانوني، أو لأغراض أمنية، أو لمنع
+            الاحتيال وإساءة الاستخدام، أو لحل نزاع قانوني.
+
+            <br><br>
+
+            عند انتهاء سبب الاحتفاظ بالبيانات، يتم حذفها أو جعلها غير
+            مرتبطة بهوية المستخدم وفقًا للإجراءات المعمول بها.
+
+        </div>
+
+    </section>
+
+
+    <section class="card">
+
+        <h2>طلب حذف جزء من البيانات فقط</h2>
+
+        <p>
+            إذا كنت لا ترغب في حذف حسابك بالكامل وترغب فقط في حذف بيانات
+            معينة، يمكنك توضيح ذلك في طلبك.
+
+            سنقوم بمراجعة الطلب وتحديد البيانات التي يمكن حذفها دون الحاجة
+            إلى حذف الحساب بالكامل.
+        </p>
+
+    </section>
+
+
+    <section class="card">
+
+        <h2>التواصل معنا</h2>
+
+        <div class="contact">
+
+            <p>
+                لإرسال طلب حذف الحساب، يرجى التواصل معنا وذكر المعلومات التالية:
+            </p>
+
+            <ul>
+
+                <li>
+                    اسم الحساب.
+                </li>
+
+                <li>
+                    رقم الهاتف المرتبط بالحساب.
+                </li>
+
+                <li>
+                    عبارة: <strong>طلب حذف حساب صيدليتك</strong>.
+                </li>
+
+            </ul>
+
+            <p>
+                <strong>البريد الإلكتروني:</strong>
+                ضع بريد التواصل الخاص بالتطبيق هنا
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- English -->
+
+    <section class="card english">
+
+        <h2>Delete Your Saidalyetak Account</h2>
+
+        <p>
+            If you want to delete your
+            <strong>Saidalyetak</strong>
+            account and the data associated with it, you can submit an
+            account deletion request.
+        </p>
+
+        <h3>How to request account deletion</h3>
+
+        <ol>
+
+            <li>
+                Contact us using the contact method provided on this page.
+            </li>
+
+            <li>
+                Provide the phone number associated with your Saidalyetak account.
+            </li>
+
+            <li>
+                Clearly state that you want to delete your account and
+                associated data.
+            </li>
+
+            <li>
+                We may request additional information to verify account
+                ownership and protect your account from unauthorized deletion
+                requests.
+            </li>
+
+            <li>
+                After verification, we will process the deletion request
+                according to our privacy policy.
+            </li>
+
+        </ol>
+
+
+        <h3>Data that may be deleted</h3>
+
+        <ul>
+
+            <li>
+                Name associated with the account.
+            </li>
+
+            <li>
+                Phone number associated with the account.
+            </li>
+
+            <li>
+                Personal account information.
+            </li>
+
+            <li>
+                Prescription and medication images uploaded by the user.
+            </li>
+
+            <li>
+                Medication request information associated with the account.
+            </li>
+
+            <li>
+                Data related to offers and communications within the app.
+            </li>
+
+            <li>
+                Other account-related data that is no longer required.
+            </li>
+
+        </ul>
+
+
+        <h3>Data that may be retained</h3>
+
+        <p>
+            Certain information may be retained for a limited period when
+            required for legal compliance, security, fraud prevention,
+            abuse prevention, or dispute resolution.
+        </p>
+
+
+        <h3>Partial data deletion</h3>
+
+        <p>
+            If you want to delete specific data without deleting your entire
+            account, you may include this request when contacting us.
+            We will review the request and determine which data can be deleted.
+        </p>
+
+
+        <h3>Contact</h3>
+
+        <p>
+            To request account deletion, provide your account name,
+            the phone number associated with your account, and clearly state
+            that you are requesting deletion of your Saidalyetak account.
+        </p>
+
+        <p>
+            <strong>Email:</strong>
+            Add your app contact email here
+        </p>
+
+    </section>
+
+</main>
+
+
+<footer>
+    © 2026 Saidalyetak - صيدليتك
+</footer>
+
+</body>
+</html>
